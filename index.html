@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="css/fontello.css" type="text/css" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	
+	<script src="jquery.scrollTo.min.js"></script>
+	
+	<script>
+		
+		jQuery(function($)
+		{
+			//zresetuj scrolla
+			$.scrollTo(0);
+			
+			$('.box.prac').click(function() { $.scrollTo($('.carticle.prace'), 500); });
+            $('.small.kim').click(function() { $.scrollTo($('.carticle.kim'), 500); });
+            $('.box.wyk').click(function() { $.scrollTo($('.carticle.wyk'), 500); });
+            $('.name').click(function() { $.scrollTo($('.carticle.kim'), 500); });
+            
+            $('.carticle.wyk').click(function() { $.scrollTo($('.info'), 500); });
+            $('.carticle.kim').click(function() { $.scrollTo($('.info'), 500); });
+            $('.carticle.prace').click(function() { $.scrollTo($('.info'), 500); });
+			
+		}
+		);
+
+	</script>
+</head>
+<body>
+    <header>
+        <div id="head">
+            <div class="logo">
+                <a href="index.html"><img src="logo.gif" height="100%"/></a>
+            </div>
+            <div class="left">
+                <div class="name">
+                    <a href="#" style="text-decoration: none;">
+                        <p class="kons">MARCEL</p>
+                    </a>
+                </div>
+                <div class="contact">
+                    <a href="kontakt.html" style="text-decoration: none;">
+                        <p class="kons">KONTAKT</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="cytat">
+                <p class="gadka" style="padding-top: 30px;"><i>"Gadka jest tania. Pokaż mi kod!"</i></p>
+                <p class="linus">-Linus Torvalds-</p>
+                <img src="avatar.gif" />
+            </div>
+        </section>
+        <section>
+            <div class="info">
+                <div class="box prac">
+                    <div class="header">
+                        <div class="met"></div>
+                        <div class="met"></div>
+                    </div>
+                    <div class="content">
+                        <div class="ctit">
+                            <p class="title">Moje prace</p>
+                        </div>
+                        <div class="ccon">
+                            <p class="text">Suspendisse nec condimentum neque. Proin molestie sodales tellus nec bibendum. Phasellus eleifend elementum dui eget tempor. Nulla efficitur gravida neque, sed tincidunt sem faucibus sed. Nam lacinia tortor magna, sollicitudin tincidunt elit porttitor sit amet. <br /><br /> In feugiat, sem quis pulvinar malesuada, lorem ante vehicula dolor, a dignissim ipsum tellus eget lectus. Aenean quis ligula ac augue congue aliquam. Morbi et libero gravida, faucibus mi nec, malesuada nunc. Sed varius sapien nisl. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="small">
+                        
+                    </div>
+                    <div class="small kim">
+                        <div class="header">
+                            <div class="met"></div>
+                            <div class="met"></div>
+                        </div>
+                        <div class="content">
+                            <div class="ctit">
+                                <p class="title">Kim jestem?</p>
+                            </div>
+                            <div class="ccon">
+                                <p class="txt">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce turpis arcu, pellentesque quis erat sed, egestas dictum magna. Cras euismod ornare pretium. Donec et erat metus. In vel pharetra odio, vel porta nibh. Sed faucibus purus orci, a varius quam luctus eget. Proin sagittis purus risus, id molestie nunc bibendum a. In hac habitasse platea dictumst.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box wyk">
+                    <div class="header">
+                        <div class="met"></div>
+                        <div class="met"></div>
+                    </div>
+                    <div class="content">
+                        <div class="ctit">
+                            <p class="title">Wykształcenie</p>
+                        </div>
+                        <div class="ccon">
+                            <p class="text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ac elementum tellus. Suspendisse potenti. Proin pellentesque ut mauris ut scelerisque. Aliquam erat volutpat. Quisque finibus elementum lorem, vulputate commodo eros iaculis id. Fusce gravida mi ac libero fermentum, vitae lacinia odio lobortis. <br /><br />Suspendisse et dui eu quam efficitur porttitor id vitae justo. Aenean pellentesque justo quis justo ornare dapibus. Donec tristique lacinia felis, vitae vulputate odio gravida vitae. Nam luctus varius viverra. Nulla non lacinia diam. In diam nunc, mollis eu erat quis, feugiat rutrum felis. Quisque fringilla commodo urna eget aliquam.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <article>
+                <div class="container">
+                    <div class="carticle kim">
+                        <div class="header">
+                            <div class="met"></div>
+                            <div class="met"></div>
+                        </div>
+                        <div class="content">
+                            <div class="ctit">
+                                <p class="title">Kim jestem?</p>
+                            </div>
+                            <div class="ccon">
+                                <p class="text">Suspendisse nec condimentum neque. Proin molestie sodales tellus nec bibendum. Phasellus eleifend elementum dui eget tempor. Nulla efficitur gravida neque, sed tincidunt sem faucibus sed. Nam lacinia tortor magna, sollicitudin tincidunt elit porttitor sit amet. <br /><br /> In feugiat, sem quis pulvinar malesuada, lorem ante vehicula dolor, a dignissim ipsum tellus eget lectus. Aenean quis ligula ac augue congue aliquam. Morbi et libero gravida, faucibus mi nec, malesuada nunc. Sed varius sapien nisl. <br /><br />Pellentesque non porta nibh, nec tincidunt mauris. Cras congue est ac mauris aliquam, cursus elementum augue sollicitudin. Donec finibus urna varius, viverra nisl nec, euismod est.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carticle prace">
+                        <div class="header">
+                            <div class="met"></div>
+                            <div class="met"></div>
+                        </div>
+                        <div class="content">
+                            <div class="ctit">
+                                <p class="title">Moje prace</p>
+                            </div>
+                            <div class="ccon">
+                                <p class="text">Suspendisse nec condimentum neque. Proin molestie sodales tellus nec bibendum. Phasellus eleifend elementum dui eget tempor. Nulla efficitur gravida neque, sed tincidunt sem faucibus sed. Nam lacinia tortor magna, sollicitudin tincidunt elit porttitor sit amet. <br /><br /> In feugiat, sem quis pulvinar malesuada, lorem ante vehicula dolor, a dignissim ipsum tellus eget lectus. Aenean quis ligula ac augue congue aliquam. Morbi et libero gravida, faucibus mi nec, malesuada nunc. Sed varius sapien nisl. <br /><br />Pellentesque non porta nibh, nec tincidunt mauris. Cras congue est ac mauris aliquam, cursus elementum augue sollicitudin. Donec finibus urna varius, viverra nisl nec, euismod est.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="carticle wyk">
+                        <div class="header">
+                            <div class="met"></div>
+                            <div class="met"></div>
+                        </div>
+                        <div class="content">
+                            <div class="ctit">
+                                <p class="title">Moje wykształcenie</p>
+                            </div>
+                            <div class="ccon">
+                                <p class="text">Suspendisse nec condimentum neque. Proin molestie sodales tellus nec bibendum. Phasellus eleifend elementum dui eget tempor. Nulla efficitur gravida neque, sed tincidunt sem faucibus sed. Nam lacinia tortor magna, sollicitudin tincidunt elit porttitor sit amet. <br /><br /> In feugiat, sem quis pulvinar malesuada, lorem ante vehicula dolor, a dignissim ipsum tellus eget lectus. Aenean quis ligula ac augue congue aliquam. Morbi et libero gravida, faucibus mi nec, malesuada nunc. Sed varius sapien nisl. <br /><br />Pellentesque non porta nibh, nec tincidunt mauris. Cras congue est ac mauris aliquam, cursus elementum augue sollicitudin. Donec finibus urna varius, viverra nisl nec, euismod est.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>       
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div id="footer">
+            <div class="social">
+                <div class="soc">
+                    <p><a href="https://www.youtube.com/watch?v=W85oD8FEF78" target="_blank"><i class="icon-youtube"></i></a></p>
+                </div>
+                <div class="soc">
+                    <p><a href="https://github.com/Marcel-Siudmak" target="_blank"><i class="icon-github-circled"></i></a></p>
+                </div>
+                <div class="email">
+                    <p><a href="kontakt.html">WYŚLIJ <i class="icon-mail"></i> <span class="mail">EMAIL</span></a></p> 
+                </div>
+                <div class="soc">
+                    <p><a href="https://www.facebook.com/profile.php?id=100017248471470" target="_blank"><i class="icon-facebook"></i></a></p>
+                </div>
+                <div class="soc">
+                    <p><a href="https://www.instagram.com/marcelsiudmak/" target="_blank"><i class="icon-instagram"></i></a></p>
+                </div>
+            </div>
+            <div class="down">
+                <p id="male">Strona zaprojektowana i stworzona przeze mnie &copy Marcel Siudmak 2022</p>
+            </div>
+        </div>
+    </footer>
+
+
+        <script>
+            document.querySelector('.box.prac').addEventListener('click', function() {
+                document.querySelector('.carticle.prace').style.display = "block";
+                document.querySelector('.carticle.kim').style.display = "none";
+                document.querySelector('.carticle.wyk').style.display = "none";
+            });
+            document.querySelector('.small.kim').addEventListener('click', function() {
+                document.querySelector('.carticle.prace').style.display = "none";
+                document.querySelector('.carticle.kim').style.display = "block";
+                document.querySelector('.carticle.wyk').style.display = "none";
+            });
+            document.querySelector('.box.wyk').addEventListener('click', function() {
+                document.querySelector('.carticle.prace').style.display = "none";
+                document.querySelector('.carticle.kim').style.display = "none";
+                document.querySelector('.carticle.wyk').style.display = "block";
+            });
+            document.querySelector('.name').addEventListener('click', function() {
+                document.querySelector('.carticle.prace').style.display = "none";
+                document.querySelector('.carticle.kim').style.display = "block";
+                document.querySelector('.carticle.wyk').style.display = "none";
+            });
+
+            document.querySelector('.carticle.wyk').addEventListener('click', function() {
+                document.querySelector('.carticle.wyk').style.display = "none";
+            });
+            document.querySelector('.carticle.kim').addEventListener('click', function() {
+                document.querySelector('.carticle.kim').style.display = "none";
+            });
+            document.querySelector('.carticle.prace').addEventListener('click', function() {
+                document.querySelector('.carticle.prace').style.display = "none";
+            });
+
+        </script>
+</body>
+</html>
