@@ -15,6 +15,9 @@
     #social_media_bar {
         display: none;
     }
+    #profilowe {
+        width: 30dvh;
+    }
   }
   
 /* --------MOBILNE POZIOM < 767px-------- */
@@ -36,6 +39,9 @@
         display: flex;
         justify-content: space-between;
     }
+    #profilowe {
+        width: 30dvh;
+    }
 }
   
 /* ------------TABLET < 991px------------ */
@@ -54,6 +60,10 @@
         display: flex;
         justify-content: space-between;
     }
+    #profilowe {
+        width: 250px;
+        margin: 25px;
+    }
 }
   
 /* ------------DESKTOP > 991px------------ */
@@ -71,6 +81,10 @@
         width: 116px;
         display: flex;
         justify-content: space-between;
+    }
+    #profilowe {
+        width: 250px;
+        margin: 25px;
     }
 }
 
@@ -124,3 +138,46 @@ nav #burger {
     width: 16px;
     background-color: black;
 }
+
+/* -----------------SECTION----------------- */
+
+
+#home {
+    height: calc(100dvh - 96px);
+    width: 100dvw;
+    background-color: rgba(197, 187, 171, 0.637);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home h1 {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#home div {
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#home a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+}
+
+#scroll {
+    margin-top: 5dvh;
+    height: 40px;
+    width: 40px;
+    background-color: black;
+}
+
+
+
+
