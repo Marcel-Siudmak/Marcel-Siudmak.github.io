@@ -1,0 +1,126 @@
+/* -----------------CSS DLA RÓŻNYCH URZĄDZEŃ----------------- */
+
+
+/* ----------MOBILNE PION < 479px---------- */
+@media only screen and (max-width: 479px) {
+    header {
+        padding: 16px;
+    }
+    #burger {
+        display: block;
+    }
+    nav a {
+        display: none;
+    }
+    #social_media_bar {
+        display: none;
+    }
+  }
+  
+/* --------MOBILNE POZIOM < 767px-------- */
+@media only screen and (max-width: 767px) and (min-width: 480px){
+    header {
+        padding: 32px;
+    }
+    nav {
+        order: 3;
+    }
+    #burger {
+        display: block;
+    }
+    nav a {
+        display: none;
+    }
+    #social_media_bar {
+        width: 116px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+  
+/* ------------TABLET < 991px------------ */
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    header {
+        padding: 32px;
+    }
+    nav {
+        width: 250px;
+    }
+    nav #burger {
+        display: none;
+    }
+    #social_media_bar {
+        width: 116px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+  
+/* ------------DESKTOP > 991px------------ */
+@media only screen and (min-width: 992px) {
+    header {
+        padding: 32px 48px;
+    }
+    nav {
+        width: 250px;
+    }
+    nav #burger {
+        display: none;
+    }
+    #social_media_bar {
+        width: 116px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+
+
+
+/* -----------------CSS DLA WSZYSTKICH URZĄDZEŃ----------------- */
+
+
+/* -----------------BODY----------------- */
+
+body {
+    margin: 0;
+}
+
+/* -----------------HEADER----------------- */
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    height: 32px;
+    width: 145px;
+    background-color: black;
+}
+
+nav {
+   display: flex;
+   justify-content: space-between; 
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav #burger {
+    width: 16px;
+    height: 16px;
+    background-color: black;
+}
+
+.social_media {
+    height: 16px;
+    width: 16px;
+    background-color: black;
+}
