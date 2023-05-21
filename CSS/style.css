@@ -15,6 +15,26 @@
     #social_media_bar {
         display: none;
     }
+    #x {
+        position: absolute;
+        right: 16px;
+        top: 16px;
+    }
+    #burg_github {
+        position: absolute;
+        top: 16px;
+        left: 16px;
+    }
+    #burg_insta {
+        position: absolute;
+        top: 16px;
+        left: 60px;
+    }
+    #burg_facebook {
+        position: absolute;
+        top: 16px;
+        left: 104px;
+    }
 
     #home {
         height: calc(100dvh - 64px);
@@ -46,6 +66,20 @@
         display: flex;
         justify-content: space-between;
     }
+    #x {
+        position: absolute;
+        right: 32px;
+        top: 32px;
+    }
+    #burg_github {
+        display: none;
+    }
+    #burg_insta {
+        display: none;
+    }
+    #burg_facebook {
+        display: none;
+    }
 
     #home {
         height: calc(100dvh - 64px);
@@ -56,6 +90,7 @@
     #profilowe {
         width: 30dvh;
     }
+    
     
 
     
@@ -76,6 +111,9 @@
         width: 125px;
         display: flex;
         justify-content: space-between;
+    }
+    #hidden_burger_menu {
+        display: none;
     }
 
     #home {
@@ -105,6 +143,9 @@
         display: flex;
         justify-content: space-between;
     }
+    #hidden_burger_menu {
+        display: none;
+    }
 
     #home {
         height: calc(100dvh - 96px);
@@ -113,6 +154,7 @@
         width: 250px;
         margin: 0px;
     }
+    
 
     
 }
@@ -165,6 +207,37 @@ nav a {
     text-decoration: none;
     color: black;
 }
+
+
+/* -----------------BURGER MENU----------------- */
+
+#hidden_burger_menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: auto;
+    background-color: white;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    border-bottom: solid 2px black;
+
+    display: none;
+}
+#hidden_burger_menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.option_burger {
+    margin-top: 30px;
+    display: block;
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
+}
+
+
 
 /* -----------------SECTION HOME----------------- */
 
