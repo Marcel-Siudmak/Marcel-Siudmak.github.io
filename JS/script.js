@@ -1,5 +1,5 @@
 // Utwórz zmienną przechowującą wartość początkową koloru tła
-var initialColor = '#FFFFFF';
+var initialColor = '#E0E0E0';
 
 // Utwórz zmienną przechowującą wartość docelową koloru tła
 var targetColor = '#121212';

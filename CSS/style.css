@@ -42,7 +42,7 @@
         display: none;
     }
     #social_media_bar {
-        width: 116px;
+        width: 125px;
         display: flex;
         justify-content: space-between;
     }
@@ -67,13 +67,13 @@
         padding: 32px;
     }
     nav {
-        width: 250px;
+        width: 275px;
     }
     nav #burger {
         display: none;
     }
     #social_media_bar {
-        width: 116px;
+        width: 125px;
         display: flex;
         justify-content: space-between;
     }
@@ -95,13 +95,13 @@
         padding: 32px 48px;
     }
     nav {
-        width: 250px;
+        width: 275px;
     }
     nav #burger {
         display: none;
     }
     #social_media_bar {
-        width: 116px;
+        width: 125px;
         display: flex;
         justify-content: space-between;
     }
@@ -128,9 +128,7 @@
 
 body {
     margin: 0;
-    /*background-color: #e7ebee;*/
-    background-color: #FFFFFF;
-    
+    background-color: #E0E0E0
     
 }
 
@@ -159,18 +157,13 @@ nav {
 nav a {
     text-decoration: none;
     color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
 }
 
-nav #burger {
-    width: 16px;
-    height: 16px;
-    background-color: black;
-}
-
-.social_media {
-    height: 16px;
-    width: 16px;
-    background-color: black;
+#social_media_bar a {
+    text-decoration: none;
+    color: black;
 }
 
 /* -----------------SECTION HOME----------------- */
@@ -179,7 +172,7 @@ nav #burger {
 
 
 #home {
-    
+    font-family: 'Josefin Sans', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -188,6 +181,7 @@ nav #burger {
 #home h1 {
     text-align: center;
     margin: 15px;
+    font-weight: 500;
 }
 
 #home div {
@@ -202,6 +196,7 @@ nav #burger {
     text-decoration: none;
     color: black;
     margin: 0px;
+    font-weight: 300;
 }
 
 
