@@ -45,6 +45,10 @@
     #profilowe {
         width: 30dvh;
     }
+
+    #side_bar {
+        display: none;
+    }
   }
   
 /* --------MOBILNE POZIOM < 767px-------- */
@@ -90,6 +94,10 @@
     #profilowe {
         width: 30dvh;
     }
+
+    #side_bar {
+        display: none;
+    }
     
     
 
@@ -124,6 +132,10 @@
         margin: 0px;
     }
 
+    #side_bar {
+        display: flex;
+    }
+
     
 }
   
@@ -154,6 +166,10 @@
         width: 250px;
         margin: 0px;
     }
+
+    #side_bar {
+        display: flex;
+    }
     
 
     
@@ -170,7 +186,7 @@
 
 body {
     margin: 0;
-    background-color: #E0E0E0
+    background-color: #E4E4E2
     
 }
 
@@ -180,7 +196,6 @@ body {
     top: 96px;
     width: 3px;
     height: calc(100dvh - 96px);
-    display: flex;
     flex-direction: column;
     justify-content: center;
 }
@@ -189,6 +204,8 @@ body {
     height: 70%;
     width: 3px;
     background-color: black;
+    border: solid 1px #E4E4E2;
+    border-radius: 2px;
 }
 
 
@@ -226,6 +243,10 @@ nav a {
 #social_media_bar a {
     text-decoration: none;
     color: black;
+}
+
+.nav_links:hover {
+    text-decoration: underline;
 }
 
 
@@ -290,6 +311,16 @@ nav a {
     color: black;
     margin: 0px;
     font-weight: 300;
+}
+
+#cien {
+    
+    position: absolute;
+    z-index: -1;
+    width: 250px;
+    height: 250px;
+    /*background-color: rebeccapurple;*/
+    display: none;
 }
 
 
@@ -367,15 +398,15 @@ footer {
 #links {
     display: flex;
     justify-content: space-between;
+    gap: 25px;
 }
 
-#links div {
-    width: 30px;
-    height: 30px;
-    background-color: black;
-    margin-left: 10px;
-    margin-right: 10px;
+#links a {
+    text-decoration: none;
+    color: black;
 }
+
+
 
 
 #copyright {
