@@ -45,6 +45,9 @@
     #profilowe {
         width: 30dvh;
     }
+    #home span {
+        top: 74px;
+    }
 
   }
   
@@ -90,6 +93,9 @@
     }
     #profilowe {
         width: 30dvh;
+    }
+    #home span {
+        top: 104px;
     }
   
 
